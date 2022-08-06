@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+header .header-container {
+  text-align: center;
+  font-size: 20px;
+  padding: 30px 0;
+}
+
+h3 {
+  padding: 10px 0;
+}
+
+main {
+  background-color: rgba(30, 30, 30, 0.1);
+  margin: 30px 10px;
+  border-radius: 5px;
+}
+
+figure {
+  margin: 0 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 15px auto;
+  height: auto;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+article {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 728px) {
+  article {
+    width: 50%;
+  }
+}
+
+article h3 {
+  text-align: center;
+  margin: 50px 0;
+}
+
+ul {
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+li {
+  margin: 15px auto;
+}
+
+span {
+  font-weight: 700;
+}
+
+.quote {
+  margin: 50px;
+  margin-left: 15px;
+  line-height: 30px;
+}
+
+.p-quote {
+  font-size: 17px;
+}
+
+.q-quote {
+  font-size: 18px;
+}
